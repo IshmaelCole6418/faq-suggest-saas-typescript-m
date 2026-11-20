@@ -1,0 +1,12 @@
+{
+  "name": "faq-suggest-saas-typescript-m",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/example.ts",
+    "test": "node --experimental-strip-types test/faq_suggest_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.10.2", "typescript": "^5.6.3" }
+}
